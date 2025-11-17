@@ -1,81 +1,83 @@
-Project Overview
+This project analyzes regional sales trends, delivery performance, and logistics efficiency for a candy distribution network. Using data from multiple regions, factories, and shipping modes, the goal is to uncover operational patterns and provide actionable insights to improve delivery speed, reduce delays, and optimize shipping strategies.
 
-The analysis covers the following areas:
+📁 Project Overview
 
-📍 Regional Delivery Performance:
+The analysis focuses on understanding:
 
-Average delivery time at both regional and state levels
+🔹 Regional Delivery Performance:
 
-Percentage of late deliveries by region
+Average delivery time by region and state
 
-Identification of factory-to-region routes that cause the longest delivery delays
+Delay percentage across regions
 
-🚚 Shipping Mode Efficiency:
+Identification of the most time-consuming factory-to-region routes
+
+🔹 Shipping Mode Efficiency:
 
 Comparison of on-time performance across Standard, Second Class, First Class, and Same Day shipping
 
-Cost vs. performance evaluation to understand economic trade-offs
+Cost vs. performance evaluation
 
-📅 Seasonal Delay Trends:
+🔹 Seasonal Delay Trends:
 
-Months with consistently high delay rates (January, April, November)
+Months with consistently high delays (e.g., January, April, November)
 
 Year-over-year changes in delivery performance
 
-🏭 Factory Proximity Impact:
+🔹 Factory Proximity Impact:
 
-Comparison between Local vs Far factory delivery performance
+Comparison of delivery speed between Local vs. Far factory shipments
 
-Regions where proximity does not improve delivery times
+Identification of regions where proximity does not improve delivery times
 
-Key Insights:
+📈 Key Insights:
 
-Delivery delays vary significantly by month and by region.
+Delivery delays vary significantly across months and regions
 
-Certain factory-to-region routes consistently show the highest delay percentages.
+Some routes (Factory → Region) consistently show higher delay percentages
 
-Same Day shipping offers the strongest balance of cost and on-time performance.
+Same Day shipping performs best in both cost and punctuality
 
-Factory proximity has minimal impact on delivery time in most regions.
+Factory proximity has minimal effect on delivery time in most regions
 
-A few states show unusually long delivery times due to logistical constraints.
+Certain states experience unusually long delivery durations due to logistical constraints
 
-Recommendations (Data Analyst Perspective):
+💡 Recommendations (Data Analyst Perspective):
 
-Implement data-driven route optimization algorithms.
+Optimize route planning using data-driven algorithms
 
-Forecast high-demand months and allocate resources in advance.
+Forecast high-demand months and allocate resources proactively
 
-Use the efficiency of Same Day shipping as a benchmark for other shipping modes.
+Use Same Day shipping structure as a benchmark to improve other modes
 
-Deploy GPS-based dashboards to monitor delays in real time.
+Implement GPS-based dashboards for real-time delay monitoring
 
-Automate sorting and dispatching processes to reduce human errors.
+Automate sorting and dispatching to reduce manual handling errors
 
-Improve cross-regional coordination by sharing logistics performance reports.
+Strengthen cross-regional logistic coordination
 
-Expand future datasets to include customer delivery feedback for deeper analysis.
+Update future datasets to include customer-level delivery feedback
 
-Tools & Technologies:
+🛠 Tools & Technologies:
 
-Power BI – dashboards, data modeling, DAX measures
+Power BI — dashboards, data modeling, DAX calculations
 
-Excel / CSV – dataset preparation
+Excel / CSV — dataset preparation
 
-Power Query – data cleaning and ETL
+Power Query — data cleaning and ETL
 
-DAX – KPI calculations and advanced business metrics
+DAX — complex measures and KPI calculations
 
-Result:
+📂 Result:
 
-The project delivers a fully interactive Power BI dashboard that highlights:
+A fully interactive Power BI dashboard that helps identify:
 
 Delay hotspots
 
-Inefficient delivery routes
+Inefficient routes
 
 High-performing shipping methods
 
-Seasonal delay patterns
+Seasonal patterns
 
-Regional delivery performance insights
+Regional delivery performance
